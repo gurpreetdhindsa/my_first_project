@@ -14,11 +14,9 @@ if($_SESSION['user']==''){
 }
  if(isset($_POST['submit']))
  {
-
-   
-    
- if(isset($_SESSION['edit_id']))
- {
+ 
+  if(isset($_SESSION['edit_id']))
+  {
     
      $description=$_POST['description'];     
      
